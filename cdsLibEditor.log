@@ -1,0 +1,73 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 08/30/2023 13:18 (sjfdcl1037) $
+\o Sub version:		sub-version  s342 
+\o Arguments:		-cdslib /fs/student/nkapasi/finalECE122A/cds.lib -mpssession virtuoso25402 -mpshost ecellvm-15.engr.ucsb.edu -mpsversion 20.1 
+\o Working Directory:	ecellvm-15.engr.ucsb.edu:/fs/student/nkapasi/finalECE122A
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.9.1
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "analogLib"
+\a nrResizeWindow(cdsLibEditor list(0 28 500 400))
+\a nrListItemAction(cdsLibEditor->mainTable 3 0)
+\o Active cell: 3 0 "SkywaterSCL"
+\a cdsLibEditor->editDeletePopupButton->value = t
+\a nrListItemAction(cdsLibEditor->mainTable 3 1)
+\o Active cell: 3 1 "/ece/PDKs/theogarajan/Skywater130_PDK/Skywater130/sky130_scl_9T_0.0.5/oa/SkywaterSCL"
+\a nrListItemAction(cdsLibEditor->mainTable 2 1)
+\o Active cell: 2 1 "$PROJECT_DIR/libs/sky130_fd_pr_main"
+\a cdsLibEditor->editAddLibButton->value = t
+\a newLibraryDialog->filePathComboBox->value = "/fs/student/nkapasi/finalECE122A"
+\a newLibraryDialog->useMappedName->value = nil
+\a nrSetWindowVisibility(newLibraryDialog "show")
+\a nrSetCurrentWindow(newLibraryDialog)
+\a nrResizeWindow(newLibraryDialog list(0 28 531 513))
+\a newLibraryDialog->filePathComboBox->value = "/fs/ece/PDKs/theogarajan/Skywater130_PDK/Skywater130/sky130_scl_9T_0.0.5/oa"
+\a newLibraryDialog->libraryName->value = "SkySCL"
+\a newLibraryDialog->okButton->value = t
+\o ERROR (CLE-216): The library directory "/fs/ece/PDKs/theogarajan/Skywater130_PDK/Skywater130/sky130_scl_9T_0.0.5/oa/SkySCL" \nand its "cdsinfo.tag" file can't be created by you. 
+\a nrSetWindowVisibility(errorDialog "show")
+\a newLibraryDialog->libraryName->value = ""
+\a nrSetCurrentWindow(errorDialog)
+\a nrResizeWindow(newLibraryDialog list(0 -9 531 513))
+\a nrResizeWindow(errorDialog list(0 167 646 122))
+\a errorDialog->errorOkButton->value = t
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(errorDialog list(0 130 646 122))
+\a nrListItemAction(cdsLibEditor->mainTable 3 0)
+\o Active cell: 3 0 "SkySCL"
+\a cdsLibEditor->editDeletePopupButton->value = t
+\a nrListItemAction(cdsLibEditor->mainTable 3 1)
+\o Active cell: 3 1 "/fs/ece/PDKs/theogarajan/Skywater130_PDK/Skywater130/sky130_scl_9T_0.0.5/oa/SkySCL"
+\a nrListItemAction(cdsLibEditor->mainTable 2 1)
+\o Active cell: 2 1 "$PROJECT_DIR/libs/sky130_fd_pr_main"
+\a nrListItemAction(cdsLibEditor->mainTable 3 0)
+\o Active cell: 3 0 ""
+\a cdsLibEditor->editAddLibButton->value = t
+\a newLibraryDialog->filePathComboBox->value = "/fs/student/nkapasi/finalECE122A"
+\a nrSetCurrentWindow(newLibraryDialog)
+\a nrResizeWindow(newLibraryDialog list(0 28 531 513))
+\a newLibraryDialog->cancelButton->value = t
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(newLibraryDialog list(0 -9 531 513))
+\a nrListItemAction(cdsLibEditor->mainTable 3 1)
+\o Active cell: 3 1 ""
+\a cdsLibEditor->editAddLibButton->value = t
+\a nrSetCurrentWindow(newLibraryDialog)
+\a nrResizeWindow(newLibraryDialog list(0 28 531 513))
+\a newLibraryDialog->filePathComboBox->value = "/fs/ece/PDKs/theogarajan/Skywater130_PDK/Skywater130/sky130_scl_9T_0.0.5/oa"
+\a newLibraryDialog->libraryListBox->value = "sky130_scl_9T"
+\a newLibraryDialog->useMappedName->value = t
+\a newLibraryDialog->libraryName->value = "sky130_scl_9T"
+\a newLibraryDialog->okButton->value = t
+\a nrListItemRename(cdsLibEditor->mainTable, 3 1 "/fs/ece/PDKs/theogarajan/Skywater130_PDK/Skywater130/sky130_scl_9T_0.0.5/oa/sky130_scl_9T")
+\a newLibraryDialog->libraryListBox->value = nil
+\a newLibraryDialog->useMappedName->value = nil
+\a newLibraryDialog->libraryName->value = ""
+\a nrListItemAction(cdsLibEditor->mainTable 4 0)
+\o Active cell: 4 0 ""
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(newLibraryDialog list(0 -9 531 513))
+\a cdsLibEditor->fileSaveButton->value = t
+\a nrSetCurrentWindow(cdsLibEditor)
+\a exit(0)

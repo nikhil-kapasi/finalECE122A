@@ -74,10 +74,10 @@
 					<output>/cout
 						<evalType>point</evalType>
 					</output>
-					<output>/VDD*
+					<output>/VDD!
 						<evalType>point</evalType>
 					</output>
-					<output>/VSS*
+					<output>/VSS!
 						<evalType>point</evalType>
 					</output>
 				</outputs>

@@ -86,5 +86,29 @@
 			<psfdir>/fs/student/mdtang/simulation/adder/carry-save_tb/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
 			<simdir>$AXL_PROJECT_DIR/adder/carry-save_tb/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
 		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.7
+			<timestamp>Dec 10 23:40:58 2024</timestamp>
+			<uuid>{5d2dd10d-88ff-406d-931b-f8ec87b1c6b9}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/mdtang/finalECE122A/adder/carry#2dsave_tb/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/mdtang/finalECE122A/adder/carry#2dsave_tb/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/mdtang/simulation/adder/carry-save_tb/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/adder/carry-save_tb/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.8
+			<timestamp>Dec 10 23:42:49 2024</timestamp>
+			<uuid>{d80126b7-eb97-4c57-9f0d-52369809b9c4}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/mdtang/finalECE122A/adder/carry#2dsave_tb/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/mdtang/finalECE122A/adder/carry#2dsave_tb/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/mdtang/simulation/adder/carry-save_tb/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/adder/carry-save_tb/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
 	</history>
 </setupdb>

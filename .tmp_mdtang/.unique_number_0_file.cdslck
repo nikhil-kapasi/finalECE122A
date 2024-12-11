@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      mdtang
+HostName                       ecellvm-20.engr.ucsb.edu
+ProcessIdentifier              32537
+ProcessCreationTime_UTC        1733897687
+ProcessCreationTime_Readable   Tue Dec 10 22:14:47 2024 PST
+AppIdentifier                  /ece/cadence/rhel8/ICADVM201/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Lock file for generating unique number for ICRP command and log file directories.
+FilePathUsedToEditLock         /fs/student/mdtang/finalECE122A/.tmp_mdtang/.unique_number_0_file
+TimeEditLocked                 Tue Dec 10 23:09:29 2024 PST

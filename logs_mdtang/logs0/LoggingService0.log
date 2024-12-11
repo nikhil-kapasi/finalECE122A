@@ -1,0 +1,6 @@
+[Logging Service: 0]
+[2024-12-10 23:09:39.299 -0800] [INFO] [cadence.virtuoso.ade.loggingservice] - HistoryRecorderManager init {"dbBasePath": "/fs/student/mdtang/finalECE122A/adder/carry#2dsave_tb/maestro/results/maestro"}
+[2024-12-10 23:09:39.302 -0800] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service has successfully started. Waiting for incoming messages ... {"hostname": "ecellvm-20.engr.ucsb.edu", "processid": 43561, "logfile": "/fs/student/mdtang/finalECE122A/logs_mdtang/logs0/LoggingService0.log"}
+[2024-12-10 23:58:07.681 -0800] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Current memory used: 63.0469 MBytes, peak memory used: 63.0664 MBytes {"hostname": "ecellvm-20.engr.ucsb.edu", "processid": 43561, "logfile": "/fs/student/mdtang/finalECE122A/logs_mdtang/logs0/LoggingService0.log"}
+[2024-12-10 23:58:07.681 -0800] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Stopping Logging Service process. {"hostname": "ecellvm-20.engr.ucsb.edu", "processid": 43561, "logfile": "/fs/student/mdtang/finalECE122A/logs_mdtang/logs0/LoggingService0.log"}
+[2024-12-10 23:58:07.681 -0800] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service stop!!!! {"hostname": "ecellvm-20.engr.ucsb.edu", "processid": 43561, "logfile": "/fs/student/mdtang/finalECE122A/logs_mdtang/logs0/LoggingService0.log"}
